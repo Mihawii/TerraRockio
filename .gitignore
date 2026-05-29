@@ -37,3 +37,8 @@ exports/*.stl
 exports/*.step
 exports/*.3mf
 exports/*.gcode
+
+# Third-party reference — ZeroBug is GPL-3.0; kept LOCAL only, never committed
+# into this (proprietary) repo to avoid copyleft contamination.
+ZeroBug-main/
+ZeroBug-main.zip
