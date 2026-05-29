@@ -2,6 +2,8 @@
 
 Mechanical design for TerraRockio (Design B), authored in Autodesk Fusion 360.
 
+> ⚠️ **CAD status — servo migration in progress.** The models in `cad/` are the *previous* mechanical iteration: they were modeled around a standard-size, 25T-spline servo (`Servo_SPT5435LV.f3d`, `25TServoHorn.f3d`). Design B — and all the figures in [`../docs/`](../docs/) — use the much smaller **Dynamixel XL330-M288**. The servo-mounting geometry is being re-modeled to the XL330 footprint; the mass/torque numbers in the docs already reflect it. Treat the CAD as the prior iteration until that lands. Full plan: [`../docs/cad-migration.md`](../docs/cad-migration.md).
+
 ## CAD layout (`cad/`)
 
 | File / folder | What it is |

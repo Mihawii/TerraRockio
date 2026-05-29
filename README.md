@@ -88,7 +88,8 @@ TerraRockio/
 │   ├── bill-of-materials.md    Full BOM with masses and sourcing
 │   ├── energy-budget.md        Battery, duty cycle, runtime math + derating
 │   ├── architecture.md         Compute / sensing / actuation / power architecture
-│   └── validation-plan.md      What still needs bench testing, and how to test it
+│   ├── validation-plan.md      What still needs bench testing, and how to test it
+│   └── cad-migration.md        Bringing the CAD up to the XL330 servo (in progress)
 ├── hardware/
 │   ├── README.md               CAD overview + print settings
 │   └── cad/                     Fusion 360 source (master assembly + legs + 26 parts)
