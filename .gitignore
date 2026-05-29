@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fusion 360 local backups / lock files
+*.f3z.bak
+*.f3d.bak
+*~
+__recover__/
+
+# Python (vision + tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# PlatformIO / ESP32 firmware
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Node (if any tooling/dashboard is added)
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build / export artifacts (regenerated from CAD)
+exports/*.stl
+exports/*.step
+exports/*.3mf
+exports/*.gcode
