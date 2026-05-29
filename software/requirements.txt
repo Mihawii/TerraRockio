@@ -1,0 +1,5 @@
+# TerraRockio Pi Zero 2 W software. Python 3.9+.
+depthai>=2.24,<3        # OAK-D Lite pipeline + on-camera (Myriad X) inference
+numpy>=1.21
+pyserial>=3.5           # link to the ESP32 controller
+opencv-python-headless>=4.6  # frame handling / optional debug snapshots
